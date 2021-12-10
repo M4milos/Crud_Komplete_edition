@@ -2,7 +2,7 @@ create schema `bdi`;
 
 CREATE TABLE bdi.produto (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `produto_qnt` varchar(45) DEFAULT NULL,
+  `produto_qnt` int DEFAULT NULL,
   `produto_type` varchar(45) default null,
   `produto_price` int default null,
   PRIMARY KEY (`id`)
